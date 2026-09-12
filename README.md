@@ -7,6 +7,7 @@ own spec, dependencies, and milestones — nothing is shared between them.
 | --- | --- | --- |
 | [`docintel/`](docintel/) | Extracts business documents into a validated schema, scores per-field confidence, routes uncertain fields to a human review queue. | Milestone 1 of 10 |
 | [`voicedesk/`](voicedesk/) | AI phone receptionist: answers a business line, books appointments in a real calendar, escalates to a human when it should. | Not started |
+| [`knowledgeos/`](knowledgeos/) | Internal knowledge system: answers from retrieved evidence, cites the chunk behind each claim, validates those citations, and abstains when the evidence is not there. | Milestone 1 of 10 |
 
 Both use the same stack — Python 3.13, FastAPI, PostgreSQL, Alembic, psycopg 3,
 SQLAlchemy 2.x — so setup is the same in either directory.
